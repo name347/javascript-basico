@@ -8,104 +8,112 @@
 // ██████  VARIABLES (Tests 1-6) ████████████████████████
 
 // Test 1:
-const nuevaString = null;
+const nuevaString = "Hello Word";
 
 // Test 2:
-const nuevoNum = null;
+const nuevoNum = 24;
 
 // Test 3:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Test 4:
-const nuevaResta = null;
+const nuevaResta = 10 - 5 === 5;
 
 // Test 5:
-const nuevaMultiplicacion = null;
+const nuevaMultiplicacion = 5 * 5 === 25;
 
 // Test 6:
-const nuevoModulo = null;
+const nuevoModulo = 21 % 5 === 1;
 
 // ██████  FUNCIONES (Tests 7-35) ████████████████████████
 
 // Test 7:
 function devolverString(str) {
-	return null;
+	return str;
 }
 
 // Test 8:
-function suma(x, y) {}
+function suma(5, 5) { 10 }
+return x + y;
+}
 
 // Test 9:
-function resta(x, y) {}
+function resta(x, y) {
+	return x - y
+}
 
 // Test 10:
-function divide(x, y) {}
+function divide(x, y) {
+	return x / y
+}
 
 // Test 11:
-function multiplica(x, y) {}
+function multiplica(x, y) {
+	return x * y
+}
 
 // Test 12:
-function sonIguales(x, y) {}
+function sonIguales(x, y) { return x === y }
 
 // Test 13:
-function tienenMismaLongitud(str1, str2) {}
+function tienenMismaLongitud(str1, str2) { return str1.length === str2.length }
 
 // Test 14:
-function menosQueNoventa(num) {}
+function menosQueNoventa(num) { }
 
 // Test 15:
-function mayorQueCincuenta(num) {}
+function mayorQueCincuenta(num) { return }
 
 // Test 16:
 function obtenerResto(x, y) {}
 
 // Test 17:
-function esPar(num) {}
+function esPar(num) {return num / 2 === 0}
 
 // Test 18:
-function esImpar(num) {}
+function esImpar(num) {return num / 2 ==! 0}
 
 // Test 19:
-function elevarAlCuadrado(num) {}
+function elevarAlCuadrado(num) {*2*}
 
 // Test 20:
-function elevarAlCubo(num) {}
+function elevarAlCubo(num) {*3*}
 
 // Test 21:
-function elevar(num, exponent) {}
+function elevar(num, exponent) { }
 
 // Test 22:
-function redondearNumero(num) {}
+function redondearNumero(num) { }
 
 // Test 23:
-function redondearHaciaArriba(num) {}
+function redondearHaciaArriba(num) { }
 
 // Test 24:
-function numeroRandom() {}
+function numeroRandom() { }
 
 // Test 25:
-function esPositivo(numero) {}
+function esPositivo(numero) { }
 
 // Test 26:
-function agregarSimboloExclamacion(str) {}
+function agregarSimboloExclamacion(str) { }
 
 // Test 27:
-function combinarNombres(nombre, apellido) {}
+function combinarNombres(nombre, apellido) { }
 
 // Test 28:
-function obtenerSaludo(nombre) {}
+function obtenerSaludo(nombre) { }
 
 // Test 29:
-function obtenerAreaRectangulo(alto, ancho) {}
+function obtenerAreaRectangulo(alto, ancho) { }
 
 // Test 30:
-function retornarPerimetro(lado) {}
+function retornarPerimetro(lado) { }
 
 // Test 31:
-function areaDelTriangulo(base, altura) {}
+function areaDelTriangulo(base, altura) { }
 
 // Test 32:
-function deEuroAdolar(euro) {}
+function deEuroAdolar(euro) { }
 
 // Tests 33-35 (3 tests en 1 función):
 function esVocal(letra) {
